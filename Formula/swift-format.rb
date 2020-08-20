@@ -4,8 +4,6 @@ class SwiftFormat < Formula
     url "https://github.com/apple/swift-format.git", :branch => "swift-5.2-branch"
     version "5.2"
 
-    depends_on :xcode => ["11.6", :build]
-
     def install
         system "swift build -c release --disable-sandbox --build-path '.build'"
         bin.install ".build/release/swift-format"
