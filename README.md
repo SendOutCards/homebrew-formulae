@@ -6,5 +6,5 @@
 > `swift-format` provides the formatting technology for SourceKit-LSP and the building blocks for doing code formatting transformations.
 
 ```bash
-brew install SendOutCards/formulae/swift-format
+brew install sendoutcards/formulae/swift-format
 ```
