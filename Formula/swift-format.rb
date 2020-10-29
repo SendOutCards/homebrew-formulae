@@ -1,7 +1,7 @@
 class SwiftFormat < Formula
     desc "`swift-format` provides the formatting technology for SourceKit-LSP and the building blocks for doing code formatting transformations."
     homepage "https://github.com/apple/swift-format"
-    url "https://github.com/apple/swift-format.git", :branch => "main"
+    url "https://github.com/apple/swift-format.git", :branch => "swift-5.3-branch"
     version "5.3"
     
     depends_on :xcode => ["12", :build]
