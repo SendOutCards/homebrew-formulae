@@ -1,10 +1,10 @@
 class SwiftFormat < Formula
     desc "`swift-format` provides the formatting technology for SourceKit-LSP and the building blocks for doing code formatting transformations."
     homepage "https://github.com/apple/swift-format"
-    url "https://github.com/apple/swift-format.git", :branch => "release/5.6"
-    version "5.6"
+    url "https://github.com/apple/swift-format.git", :branch => "release/5.7"
+    version "5.7"
     
-    depends_on :xcode => ["13.3", :build]
+    depends_on :xcode => ["14.0", :build]
 
     def install
         system "swift build -c release --disable-sandbox --build-path '.build'"
